@@ -1,0 +1,473 @@
+body{
+	font-family :Merriweather;
+	overflow-x : hidden;
+}
+.wl-custom-container{
+	background : url("../images/pexels-photo-306763.jpeg") ;
+	background-position : left center;
+	background-size : cover;
+	background-repeat : no-repeat;
+	padding : 20%;
+}
+.wl-custom-header{
+	border : none;
+	background : #66ccff;
+	padding : 7px;
+	color : #fff;
+}
+.button{
+	margin : 0 auto;
+	display : block;
+}
+.button:hover{
+
+}
+.wl-custom-button-1{
+	padding: 10px 45px;
+	background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+	margin : 10px;
+	transition : 0.5s all ease;
+}
+.wl-custom-button-1:hover{
+	background : beige;
+	transition : 0.5s all ease;
+}
+.wl-custom-conatiner-2{
+	background :linear-gradient(45deg, rgba(17,17,17,0.23) 0%, rgba(89,89,89,0.23) 0%, rgba(75,75,75,0.23) 31%, rgba(44,44,44,0.97) 97%, rgba(0,0,0,0.99) 99%, rgba(28,28,28,1) 100%),url("../images/macbook-apple-imac-computer-39284.jpeg");
+	background-position : left center;
+	background-size : cover;
+	background-repeat : no-repeat;
+	padding : 100px;
+}
+.wl-custom-conatiner-3{
+	background :url("../images/laundromat-708176_1280.jpg");
+	background-position : left center;
+	background-size : cover;
+	background-repeat : no-repeat;
+	padding : 100px;
+}
+.wl-custom-conatiner-4{
+	background :url("../images/stainless-steel-fridge-with-coffee-maker.jpg");
+	background-position : left center;
+	background-size : cover;
+	background-repeat : no-repeat;
+	padding : 100px;
+}
+.wl-heading{
+	text-align: center;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 4px 1px 11px black;
+}
+.wl-para{
+	color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 2px 1px 7px black;
+}
+.wl-custom-button-2{
+	text-align: center;
+   border-radius : 10px;
+    padding: 10px 75px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #fff; 
+    transition: 0.5s all ease;
+	margin : 0 auto;
+	display : block;
+	color : #fff;
+}
+.wl-custom-button-2:hover{
+	
+	background : beige;
+	transition : 0.5s all ease;
+}
+#wl-headpara {
+	color : #fff;
+	text-align : center;
+	
+}
+.wl-heading-2 {
+  display: flex;
+  align-items: center;
+  
+  font-size: 24px;
+}
+.wl-heading-2:before,
+.wl-heading-2:after {
+	background: red;
+    height: 2px;
+    flex: 1;
+    content: '';
+    margin: 10px;
+}
+.wl-section-2{
+	    padding: 15px;
+		font-size: medium;
+}
+.wl-custom-link-1{
+	color : #000;
+	
+}
+.wl-custom-link-1:hover{
+	color : red;
+	text-decoration : none;
+}
+.wl-copyright{
+	color : #fff;
+	text-align : center;
+	font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.wl-icon-padding{
+	    padding: 10px;
+    font-size: 35px;
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+}
+.wl-custom-icon-1-1{
+ 	color : darkblue;
+	-webkit-transition : all 0.5s ease;
+	-webkit-filter: grayscale(100%);
+	
+}
+.wl-custom-icon-1-1:hover{
+	-webkit-transition : all 0.5s ease;
+	-webkit-transform : scale(1.1,1.1);
+	-webkit-filter: grayscale(0%);
+	
+}
+.wl-custom-icon-1-2{
+	color :  #d34836 ;
+	-webkit-transition : all 0.5s ease;
+	-webkit-filter: grayscale(100%);
+}
+.wl-custom-icon-1-2:hover{
+	-webkit-transition : all 0.5s ease;
+	-webkit-transform : scale(1.1,1.1);
+	-webkit-filter: grayscale(0%);
+}
+.wl-custom-icon-1-3{
+	color : rgba(255, 1, 11, 0.58);
+	-webkit-transition : all 0.5s ease;
+	-webkit-filter: grayscale(100%);
+}
+.wl-custom-icon-1-3:hover{
+	-webkit-transition : all 0.5s ease;
+	-webkit-transform : scale(1.1,1.1);
+	-webkit-filter: grayscale(0%);
+}
+.wl-custom-icon-1-4{
+	color : green;
+	-webkit-transition : all 0.5s ease;
+	-webkit-filter: grayscale(100%);
+}
+.wl-custom-icon-1-4:hover{
+	-webkit-transition : all 0.5s ease;
+	-webkit-transform : scale(1.1,1.1);
+	-webkit-filter: grayscale(0%);
+}
+/* carousel */
+/* Detail .html page */
+.wl-heading-3{
+	margin-top: 5%;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    color: #66ccff;
+	
+	
+}
+/*  media obbject  */
+.wl-custom-media{
+	border : 2px solid #eee;
+	padding : 10px;
+	border-radius: 15px;
+    box-shadow: 3px 3px 8px 0px #eee;
+	-webkit-transition : all 0.5s ease;
+}
+.wl-custom-media:hover{
+	-webkit-transition : all 0.5s ease;
+	box-shadow: none;
+	-webkit-transform : scale(1.0,1.0);
+}
+.wl-buttons{
+	
+	
+}
+.wl-price{
+	font-size : 20px;
+	font-weight : bold;
+	margin-right : 35px;
+}
+/* Tabs Section */
+.wl-custom-tab{
+	background : #f5f5f5;
+	border: 1px solid #eee;
+}
+.wl-custom-list{
+	color : #66ccff;
+	
+}
+.nav-tabs > li.active{
+	border-top-color: #66ccff;
+	
+	border-style : solid;
+}
+.nav-tabs > li.active > a:hover{
+	color : #66ccff;
+}
+.wl-tab-heading{
+	color : #66ccff;
+	
+}
+.wl-custom-list-2{
+	line-height: 35px;
+    letter-spacing: 1px;
+	
+}
+.wl-tab-button{
+	padding: 13px 30px;
+    background: #66ccff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #0099cc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #000;
+	-webkit-transition : all 1s ease;
+}
+.wl-tab-button:hover{
+	-webkit-transition : all 1s ease;
+	color : #003399;
+	box-shadow: none;
+}
+/*   Accordians FAQ sections   */
+.panel-group > panel.active > a {
+	color : #66CCFF;
+}
+/* ---------- Icons Section */
+.wl-subsection-1{
+	    padding: 10px;
+    line-height: 1.7;
+    color: slateblue;
+}
+.wl-custom-icon-2{
+	    color: #66ccff;
+}
+.wl-custom-icon-2:hover{
+	color: yellowgreen;
+}
+.wl-heading-4{
+	color: #66ccff;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+.wl-para-2{
+	
+}
+/* ------- Checkout page -----*/
+.wl-custom-image{
+	border : 2px solid  #66ffcc;
+	border-radius : 10px;
+	    padding: 5px 15px;
+		-webkit-transition : all 0.5s ease;
+	
+}
+.wl-custom-image:hover{
+	border : 2px solid  #003399;
+	border-radius : 10px;
+	-webkit-transition : all 0.5s ease;
+}
+/* -------------- Personal Detail Form ---------------- */
+.wl-custom-fieldset{
+	padding : 10px;
+	margin : 10px;
+}
+@media screen and (min-width:767px){
+.wl-custom-media-1{
+	
+	padding : 20px;
+}
+}
+@media screen and (max-width:767px){
+.wl-media-img{
+	width :
+}
+}
+.wl-custom-icon-3{
+	color  : #66ccff;
+}
+.wl-custom-list-3{
+	font-size : 16px;
+	line-height : 1.5;
+	letter-spacing : 1px;
+	padding: 20px;
+}
+.wl-custom-button-3{
+	background : #66ccff;
+	padding : 15px 50px;
+	border : 1px solid ##0099cc;
+	border-radius : 5px;
+	letter-spacing : 2px;
+	color : #003399;
+	-webkit-transition : all 0.5s ease;
+	font-weight : bold;
+}
+.wl-custom-button-3:hover {
+	color : #66ccff;
+	background : #003399;
+	-webkit-transition : all 0.5s ease;
+}
+.wl-custom-button-4{
+	padding : 15px 50px;
+	border-radius : 5px;
+	border : 2px solid #0099cc;
+	letter-spacing : 2px;
+	background : transparent;
+	color : #003399;
+	font-weight : bold;
+}
+
+.wl-custom-button-4:hover{
+	color : #66ccff;
+	background : #003399;
+	-webkit-transition : all 0.5s ease;
+	border : 1px solid #0099cc;
+}
+.wl-custom-container-2{
+	
+    padding: 20px;
+    margin: 20px;
+}
+.wl-buttons-2{
+	    padding: 30px;
+    margin-top: 30px;
+}
+/* ---------- Checkout Header ------ */
+.wl-checkout-header{
+	border : none;
+	padding : 7px;
+	background : #66ccff;
+	color : #fff;
+}
+.wl-header-list{
+	color : #fff;
+}
+.wl-heading-5{
+	display : flex;
+	align-items : center;
+}
+.wl-heading-5:before,
+.wl-heading-5:after {
+	background: red;
+    height: 2px;
+    flex: 1;
+    content: '';
+    margin: 10px;
+}
+
+/* -------- Contact Us Page -------- */
+.wl-contact-list{
+	color : #fff;
+	
+}
+.wl-custom-container-3{
+	background :linear-gradient(to right, rgba(117,137,12,1) 0%, rgba(117,137,12,0.38) 0%, rgba(117,137,12,0.38) 98%, rgba(164,179,87,0.38) 100%),url("../images/minions-1280x720.jpg");
+	background-size : cover;
+	background-position : left center;
+	background-repeat : no-repeat;
+	padding : 100px;
+	color : #fff;
+}
+.wl-custom-container-4{
+	padding : 30px;
+	background : #f5f5f5;
+	margin-top : -100px;
+	border-radius : 10px;
+}
+.wl-heading-6{
+	font-weight : bold;
+	
+}
+.wl-para-3{
+	font-size : 18px;
+}
+.wl-custom-form{
+	margin-bottom : 10px;
+	margin-top : 10px;
+}
+.wl-custom-button-5{
+	background : #66ccff;
+	color : #003399;
+	padding : 15px 60px;
+	margin : 0 auto;
+	display : block;
+	border : 1px solid #ccffcc;
+	border-radius : 10px;
+	box-shadow : 0px 2px 1px 0px rgba(158, 114, 216, 0.67);
+	margin-top : 20px;
+	letter-spacing : 2px;
+	font-weight : bold;
+	transition : 0.5s all ease;
+}
+.wl-custom-button-5:hover{
+	background : #003399;
+	color : #66ffcc;
+	transition : 0.5s all ease;
+	
+}
+/*   Meet The team section */
+.wl-custom-image-1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.wl-section-image:hover .wl-custom-image-1 {
+  opacity: 0.3;
+}
+
+.wl-section-image:hover .middle {
+  opacity: 1;
+}
+
+.wl-image-caption{
+	    background: #253340;
+    color: #a6a593;
+    text-align: center;
+    padding: 10px;
+}
+.wl-custom-icon-5{
+	background :#253340;
+	color :#fff;
+
+    
+   -webkit-transition : all 0.5s ease;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.wl-custom-icon-5:hover{
+	background :#47c9af;
+	-webkit-transition : all 0.5s ease;
+	color :#fff;
+}
+
